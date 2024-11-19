@@ -15,6 +15,5 @@
   ### ***5- Model Evaluation:*** The model is then evaluated using a set of example sentences to test its ability to predict the next word accurately.
   
   ### ***6- Deployment:*** Deployed using Streamlit to allow real-time predictions given an input.
-  *  ***Web App link:***
-
+  *  ***Web App link: [next-word-wassim-hamra.streamlit.app](https://next-word-prediction-wassim-hamraapp.streamlit.app/)***
 
