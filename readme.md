@@ -16,3 +16,4 @@
   
   ### ***6- Deployment:*** Deployed using Streamlit to allow real-time predictions given an input.
   *  ***Web App link: [next-word-wassim-hamra.streamlit.app](https://next-word-prediction-wassim-hamraapp.streamlit.app/)***
+  * **⚠️ Wake the Streamlit Application if it's sleeping**
