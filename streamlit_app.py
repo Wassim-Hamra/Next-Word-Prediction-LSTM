@@ -41,6 +41,6 @@ st.markdown(
 st.title('Projet Tech.Multimedia : ')
 st.title('Prédiction du mot suivant avec RNN')
 input_text = st.text_input('Entrez votre séquence 💬','Hello there')
-if st.button("Predict Next Word"):
+if st.button("Prédire le mot suivant"):
     next_word = predict_next_word(model,tokenizer,input_text,14)
     st.markdown(f'<div class="box"><h5>{input_text}</h5><h4 style="color:red; font-weight:bold">{next_word}</h4></div>', unsafe_allow_html=True)
