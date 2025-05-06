@@ -38,7 +38,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.title('💻 Projet Tech.Multimedia : ')
+st.markdown("<h1 style='text-align: center;'>💻 Projet Multimédia : </h1>", unsafe_allow_html=True)
 st.title('──── ୨୧ ────')
 st.title('✨ Prédiction du mot suivant avec RNN')
 input_text = st.text_input('Entrez votre séquence 💬','Hello there')
