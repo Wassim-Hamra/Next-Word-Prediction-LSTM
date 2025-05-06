@@ -38,7 +38,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.sidebar.title('💻 Projet Tech.Multimedia : ')
+st.title('💻 Projet Tech.Multimedia : ')
+st.spinner()
 st.title('✨ Prédiction du mot suivant avec RNN')
 input_text = st.text_input('Entrez votre séquence 💬','Hello there')
 if st.button("Prédire le mot suivant"):
