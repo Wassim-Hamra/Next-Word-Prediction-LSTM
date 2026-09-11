@@ -38,10 +38,9 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown("<h2 style='text-align: center;'>💻 Projet Multimédia : </h2>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>──── ୨୧ ────</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center;'>✨ Prédiction du mot suivant avec RNN</h1>", unsafe_allow_html=True)
-input_text = st.text_input('Entrez votre séquence 💬','Hello there')
-if st.button("Prédire le mot suivant"):
+st.markdown("<h1 style='text-align: center;'>✨ Next Token Prediction using LSTM</h1>", unsafe_allow_html=True)
+input_text = st.text_input('Enter your sequence 💬','Hello there')
+if st.button("Generate"):
     next_word = predict_next_word(model,tokenizer,input_text,14)
     st.markdown(f'<div class="box"><h5>{input_text}</h5><h4 style="color:orange; font-weight:bold">{next_word}</h4></div>', unsafe_allow_html=True)
